@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>Symmetry</title>
+  <path d="M10 16L21 48M54 16L43 48" fill="none" stroke="currentColor" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M32 8L32 14M32 22L32 28M32 36L32 42M32 50L32 56" fill="none" stroke="#236ead" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+</svg>

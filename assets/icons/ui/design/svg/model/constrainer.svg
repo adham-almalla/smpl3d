@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>Constrainer</title>
+  <path d="M15 14L49 14A5 5 0 0 1 54 19L54 45A5 5 0 0 1 49 50L15 50A5 5 0 0 1 10 45L10 19A5 5 0 0 1 15 14Z" fill="none" stroke="currentColor" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M22 27L42 27M22 37L42 37" fill="none" stroke="#236ead" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  <circle cx="10" cy="14" r="6.5" fill="#ffffff"/><circle cx="10" cy="14" r="4" fill="currentColor"/>
+  <circle cx="54" cy="50" r="6.5" fill="#ffffff"/><circle cx="54" cy="50" r="4" fill="currentColor"/>
+</svg>

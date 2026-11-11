@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>Two distance sketch chamfer</title>
+  <path d="M12 10L12 22M38 52L54 52" fill="none" stroke="currentColor" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M12 29L12 32M12 39L12 42M12 49L12 52M12 52L15 52M20 52L23 52M28 52L31 52" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M12 22L38 52" fill="none" stroke="#236ead" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+</svg>

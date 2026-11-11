@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>Plane through three points</title>
+  <path d="M32 19.88L53 32L32 44.12L11 32Z" fill="none" stroke="#236ead" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M3.5 32A7.5 7.5 0 1 0 18.5 32A7.5 7.5 0 1 0 3.5 32Z" fill="#ffffff"/>
+  <circle cx="11" cy="32" r="5" fill="currentColor"/>
+  <path d="M45.5 32A7.5 7.5 0 1 0 60.5 32A7.5 7.5 0 1 0 45.5 32Z" fill="#ffffff"/>
+  <circle cx="53" cy="32" r="5" fill="currentColor"/>
+  <path d="M24.5 44.12A7.5 7.5 0 1 0 39.5 44.12A7.5 7.5 0 1 0 24.5 44.12Z" fill="#ffffff"/>
+  <circle cx="32" cy="44.12" r="5" fill="currentColor"/>
+</svg>

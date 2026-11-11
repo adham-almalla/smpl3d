@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>Equation curve</title>
+  <path d="M10 8L10 54L56 54" fill="none" stroke="currentColor" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M18 40C23 12 31 12 37 28C43 44 51 44 56 18" fill="none" stroke="#236ead" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+</svg>

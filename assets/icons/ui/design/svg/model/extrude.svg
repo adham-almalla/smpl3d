@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>Extrude</title>
+  <path d="M12.95 33L12.95 47L32 58L51.05 47L51.05 33" fill="none" stroke="currentColor" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M32 44L32 58" fill="none" stroke="currentColor" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M32 22L51.05 33L32 44L12.95 33Z" fill="#b9ddf8" stroke="#236ead" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M32 33L32 8M37.69 14.32L32 8L26.31 14.32" fill="none" stroke="#236ead" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+</svg>

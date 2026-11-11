@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>Sketch mirror</title>
+  <path d="M32 8L32 11M32 19.25L32 22.25M32 30.5L32 33.5M32 41.75L32 44.75M32 53L32 56" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M22 14L22 50L8 50Z" fill="none" stroke="currentColor" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M42 14L42 50L56 50Z" fill="none" stroke="#236ead" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+</svg>

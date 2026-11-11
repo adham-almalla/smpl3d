@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>Three-point rectangle</title>
+  <path d="M12 34L42 50L52.35 30.6L22.35 14.6Z" fill="none" stroke="currentColor" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  <circle cx="12" cy="34" r="6.5" fill="#ffffff"/><circle cx="12" cy="34" r="4" fill="#236ead"/>
+  <circle cx="42" cy="50" r="6.5" fill="#ffffff"/><circle cx="42" cy="50" r="4" fill="#236ead"/>
+  <circle cx="52.35" cy="30.6" r="6.5" fill="#ffffff"/><circle cx="52.35" cy="30.6" r="4" fill="#236ead"/>
+</svg>

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>Perpendicular plane</title>
+  <path d="M32 30.3L54 43L32 55.7L10 43Z" fill="none" stroke="currentColor" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M21.61 37L42.39 49L42.39 21L21.61 9Z" fill="#ffffff" stroke="#ffffff" stroke-width="9" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M21.61 37L42.39 49L42.39 21L21.61 9Z" fill="none" stroke="#236ead" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+</svg>

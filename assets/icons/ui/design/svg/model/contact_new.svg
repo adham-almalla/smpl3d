@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>New contact set</title>
+  <path d="M21.94 21.5L46.19 35.5L46.19 49.5L34.06 56.5L9.81 42.5L9.81 28.5Z" fill="none" stroke="currentColor" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M9.81 28.5L34.06 42.5L46.19 35.5M34.06 42.5L34.06 56.5" fill="none" stroke="currentColor" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M34.06 28.5L21.94 35.5L21.94 49.5" fill="none" stroke="currentColor" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M49 8L49 22M42 15L56 15" fill="none" stroke="#236ead" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+</svg>

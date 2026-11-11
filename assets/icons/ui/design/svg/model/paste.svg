@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>Paste</title>
+  <path d="M23 13L18 13Q12 13 12 19L12 50Q12 56 18 56L46 56Q52 56 52 50L52 19Q52 13 46 13L41 13" fill="none" stroke="currentColor" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M26 8L38 8A3 3 0 0 1 41 11L41 15A3 3 0 0 1 38 18L26 18A3 3 0 0 1 23 15L23 11A3 3 0 0 1 26 8Z" fill="none" stroke="currentColor" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M22 32L42 32M22 43L34 43" fill="none" stroke="#236ead" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>Point along path</title>
+  <path d="M8 48C26 48 24 22 56 18" fill="none" stroke="currentColor" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M17.75 34.5A9 9 0 1 0 35.75 34.5A9 9 0 1 0 17.75 34.5Z" fill="#ffffff"/>
+  <circle cx="26.75" cy="34.5" r="6" fill="#236ead"/>
+</svg>

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>Path pattern</title>
+  <path d="M10 49C30 49 22 17 54 15" fill="none" stroke="currentColor" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  <circle cx="10" cy="49" r="5.5" fill="currentColor"/>
+  <path d="M19.55 31.76A8.5 8.5 0 1 0 36.55 31.76A8.5 8.5 0 1 0 19.55 31.76Z" fill="#ffffff"/>
+  <circle cx="28.05" cy="31.76" r="5.5" fill="#236ead"/>
+  <circle cx="54" cy="15" r="5.5" fill="#236ead"/>
+</svg>

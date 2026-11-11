@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>Two-point circle</title>
+  <path d="M10 32A22 22 0 1 0 54 32A22 22 0 1 0 10 32Z" fill="none" stroke="currentColor" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M20.95 38.4L23.54 36.9M27.45 34.63L30.05 33.13M33.95 30.87L36.55 29.37M40.46 27.1L43.05 25.6" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+  <circle cx="12.95" cy="43" r="6.5" fill="#ffffff"/><circle cx="12.95" cy="43" r="4" fill="#236ead"/>
+  <circle cx="51.05" cy="21" r="6.5" fill="#ffffff"/><circle cx="51.05" cy="21" r="4" fill="#236ead"/>
+</svg>

@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>Move</title>
+  <path d="M42 32L56 32M50.05 37.35L56 32L50.05 26.65M22 32L8 32M13.95 26.65L8 32L13.95 37.35M32 42L32 56M26.65 50.05L32 56L37.35 50.05M32 22L32 8M37.35 13.95L32 8L26.65 13.95" fill="none" stroke="currentColor" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  <circle cx="32" cy="32" r="4.5" fill="#236ead"/>
+</svg>

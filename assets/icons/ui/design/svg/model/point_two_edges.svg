@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>Point through two edges</title>
+  <path d="M9 45L55 19M19 10L45 54" fill="none" stroke="currentColor" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M23 32A9 9 0 1 0 41 32A9 9 0 1 0 23 32Z" fill="#ffffff"/>
+  <circle cx="32" cy="32" r="6" fill="#236ead"/>
+</svg>

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>Screw coupling</title>
+  <path d="M18 8L28 8Q32 8 32 12L32 52Q32 56 28 56L18 56Q14 56 14 52L14 12Q14 8 18 8Z" fill="none" stroke="currentColor" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M14 24L32 17M14 36L32 29M14 48L32 41" fill="none" stroke="currentColor" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M47 54L47 10M52.69 16.32L47 10L41.31 16.32" fill="none" stroke="#236ead" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+</svg>

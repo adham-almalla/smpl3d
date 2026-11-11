@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>Interference</title>
+  <path d="M13 8L35 8A5 5 0 0 1 40 13L40 35A5 5 0 0 1 35 40L13 40A5 5 0 0 1 8 35L8 13A5 5 0 0 1 13 8Z" fill="none" stroke="currentColor" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M29 24L51 24A5 5 0 0 1 56 29L56 51A5 5 0 0 1 51 56L29 56A5 5 0 0 1 24 51L24 29A5 5 0 0 1 29 24Z" fill="none" stroke="currentColor" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M29 24L40 24L40 35Q40 40 35 40L24 40L24 29Q24 24 29 24Z" fill="none" stroke="#236ead" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+</svg>

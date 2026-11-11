@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>Rectangular pattern</title>
+  <path d="M12 8L22 8Q26 8 26 12L26 22Q26 26 22 26L12 26Q8 26 8 22L8 12Q8 8 12 8Z" fill="none" stroke="currentColor" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M42 8L52 8Q56 8 56 12L56 22Q56 26 52 26L42 26Q38 26 38 22L38 12Q38 8 42 8ZM12 38L22 38Q26 38 26 42L26 52Q26 56 22 56L12 56Q8 56 8 52L8 42Q8 38 12 38ZM42 38L52 38Q56 38 56 42L56 52Q56 56 52 56L42 56Q38 56 38 52L38 42Q38 38 42 38Z" fill="none" stroke="#236ead" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+</svg>

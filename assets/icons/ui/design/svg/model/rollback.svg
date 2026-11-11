@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>Rollback</title>
+  <path d="M8 47L56 47" fill="none" stroke="currentColor" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  <circle cx="12" cy="47" r="5" fill="currentColor"/>
+  <circle cx="32" cy="47" r="5" fill="currentColor"/>
+  <circle cx="52" cy="47" r="5" fill="currentColor"/>
+  <path d="M52 33C52 12 32 12 32 31M26.65 26.05L32 32L37.35 26.05" fill="none" stroke="#236ead" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+</svg>

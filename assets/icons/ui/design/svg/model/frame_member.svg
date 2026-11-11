@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>Frame Member</title>
+  <path d="M51.92 31.5L22.47 14.5L12.08 20.5L12.08 32.5L41.53 49.5" fill="none" stroke="currentColor" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M12.08 20.5L41.53 37.5" fill="none" stroke="currentColor" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M41.53 37.5L51.92 31.5L51.92 43.5L41.53 49.5Z" fill="#b9ddf8" stroke="#236ead" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+</svg>

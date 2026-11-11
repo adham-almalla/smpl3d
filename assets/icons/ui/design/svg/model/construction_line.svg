@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>Construction line through two points</title>
+  <path d="M8 56L12.24 51.76M18.94 45.06L23.18 40.82M29.88 34.12L34.12 29.88M40.82 23.18L45.06 18.94M51.76 12.24L56 8" fill="none" stroke="currentColor" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  <circle cx="22" cy="42" r="6.5" fill="#ffffff"/><circle cx="22" cy="42" r="4" fill="#236ead"/>
+  <circle cx="42" cy="22" r="6.5" fill="#ffffff"/><circle cx="42" cy="22" r="4" fill="#236ead"/>
+</svg>

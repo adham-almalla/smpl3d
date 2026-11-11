@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>Point through three planes</title>
+  <path d="M32 8L52.78 20L52.78 44L32 56L11.22 44L11.22 20Z" fill="none" stroke="currentColor" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M32 8L32 32L11.22 44M32 32L52.78 44" fill="none" stroke="currentColor" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M23 32A9 9 0 1 0 41 32A9 9 0 1 0 23 32Z" fill="#ffffff"/>
+  <circle cx="32" cy="32" r="6" fill="#236ead"/>
+</svg>

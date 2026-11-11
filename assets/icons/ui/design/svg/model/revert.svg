@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>Revert position</title>
+  <path d="M8 20L8 13Q8 8 13 8L20 8M44 8L51 8Q56 8 56 13L56 20M56 44L56 51Q56 56 51 56L44 56M20 56L13 56Q8 56 8 51L8 44" fill="none" stroke="currentColor" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M43 42C43 32 37 26 28 26L21 26M26.66 20.34L21 26L26.66 31.66" fill="none" stroke="#236ead" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+</svg>

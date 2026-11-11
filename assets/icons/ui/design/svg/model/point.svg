@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>Point</title>
+  <path d="M45 32L56 32M19 32L8 32M32 45L32 56M32 19L32 8" fill="none" stroke="currentColor" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  <circle cx="32" cy="32" r="6" fill="#236ead"/>
+</svg>

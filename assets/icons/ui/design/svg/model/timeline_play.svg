@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>Play History</title>
+  <path d="M8 53L56 53" fill="none" stroke="currentColor" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  <circle cx="16" cy="53" r="4.2" fill="currentColor"/>
+  <circle cx="32" cy="53" r="4.2" fill="currentColor"/>
+  <circle cx="48" cy="53" r="4.2" fill="currentColor"/>
+  <path d="M23 8L46 22.5L23 37Z" fill="none" stroke="#236ead" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+</svg>

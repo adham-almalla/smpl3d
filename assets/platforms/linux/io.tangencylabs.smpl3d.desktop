@@ -1,0 +1,16 @@
+[Desktop Entry]
+Type=Application
+Name=Smpl3D
+GenericName=3D CAD
+Comment=Parametric 3D CAD: sketch, constrain, extrude, and change a parameter to rebuild
+Exec=smpl3d %f
+TryExec=smpl3d
+Icon=io.tangencylabs.smpl3d
+Terminal=false
+StartupNotify=true
+StartupWMClass=io.tangencylabs.smpl3d
+Categories=Graphics;3DGraphics;Engineering;
+Keywords=cad;3d;parametric;sketch;step;stl;modelling;modeling;
+MimeType=application/x-smpl3d;model/step;model/iges;model/stl;model/3mf;
+# Desktop ids of earlier releases; launchers keep pinned entries across the renames.
+X-Flatpak-RenamedFrom=ai.storyteller.smpl3d.desktop;ai.storyteller.solvecraft.desktop;

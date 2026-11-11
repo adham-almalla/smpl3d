@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>Torus</title>
+  <path d="M8 32A24 15 0 1 0 56 32A24 15 0 1 0 8 32Z" fill="none" stroke="currentColor" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M21 30Q32 40 43 30M25 32.6Q32 26 39 32.6" fill="none" stroke="#236ead" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+</svg>

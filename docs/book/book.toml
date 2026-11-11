@@ -1,0 +1,29 @@
+[book]
+title = "Smpl3D"
+description = "An open-source parametric 3D CAD application in pure Rust: user guide and developer guide."
+authors = ["Smpl3D contributors"]
+language = "en"
+src = "src"
+
+[build]
+build-dir = "../../target/book"
+create-missing = false
+
+[output.html]
+git-repository-url = "https://github.com/tangency-labs/smpl3d"
+edit-url-template = "https://github.com/tangency-labs/smpl3d/edit/main/docs/book/{path}"
+site-url = "/"
+no-section-label = false
+
+[output.html.search]
+enable = true
+
+[output.html.redirect]
+# Pages included from the repository (CONTRIBUTING.md, docs/*.md) keep their repository-relative
+# links; these send them to the right place.
+"/dev/mcp.html" = "../guide/mcp.html"
+"/dev/docs/oracle.html" = "../oracle.html"
+"/dev/README.html" = "https://github.com/tangency-labs/smpl3d/blob/main/README.md"
+"/dev/ATTRIBUTION.html" = "https://github.com/tangency-labs/smpl3d/blob/main/ATTRIBUTION.md"
+"/dev/AGENTS.html" = "https://github.com/tangency-labs/smpl3d/blob/main/AGENTS.md"
+"/dev/ROADMAP.html" = "https://github.com/tangency-labs/smpl3d/blob/main/ROADMAP.md"

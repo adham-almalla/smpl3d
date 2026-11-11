@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>Curvature comb</title>
+  <path d="M8 54Q28 14 56 46" fill="none" stroke="currentColor" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M7.93 42.1L3.77 39.32M21.47 28.74L15.7 18.22M36.97 26.18L39.16 14.38M53.32 34.82L56.59 31.03" fill="none" stroke="#236ead" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+</svg>

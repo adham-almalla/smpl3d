@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>Centre point arc slot</title>
+  <path d="M8.65 35.65A28.5 28.5 0 0 1 55.35 35.65A6.5 6.5 0 0 1 44.7 43.11A15.5 15.5 0 0 0 19.3 43.11A6.5 6.5 0 0 1 8.65 35.65Z" fill="none" stroke="currentColor" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  <circle cx="13.98" cy="39.38" r="3.2" fill="#236ead"/>
+  <circle cx="50.02" cy="39.38" r="3.2" fill="#236ead"/>
+  <circle cx="32" cy="53" r="4" fill="#236ead"/>
+</svg>

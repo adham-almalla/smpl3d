@@ -1,0 +1,22 @@
+[package]
+name = "smpl3d-doc"
+description = "Smpl3D document model: parameters and expressions, sketches and features on a parametric timeline, incremental evaluation"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[lints]
+workspace = true
+
+[dependencies]
+smpl3d-geom = { workspace = true }
+smpl3d-sketch = { workspace = true }
+smpl3d-kernel = { workspace = true }
+smpl3d-render = { workspace = true }
+smpl3d-derive = { workspace = true }
+serde = { workspace = true }
+serde_json = { workspace = true, features = ["raw_value"] }
+thiserror = { workspace = true }
+log = { workspace = true }
+sha2 = { workspace = true }
+web-time = { workspace = true }

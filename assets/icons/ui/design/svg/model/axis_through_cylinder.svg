@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>Axis through cylinder, cone or torus</title>
+  <path d="M17 24L17 44A15 8.6 0 0 0 47 44L47 24" fill="none" stroke="currentColor" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M17 24A15 8.6 0 1 0 47 24A15 8.6 0 1 0 17 24Z" fill="none" stroke="currentColor" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M32 6.5L32 24M32 53L32 57.5" fill="none" stroke="#236ead" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  <circle cx="32" cy="24" r="3.5" fill="#236ead"/>
+</svg>

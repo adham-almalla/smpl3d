@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>Rename</title>
+  <path d="M22 20L14 20Q8 20 8 26L8 38Q8 44 14 44L22 44M42 20L50 20Q56 20 56 26L56 38Q56 44 50 44L42 44" fill="none" stroke="currentColor" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M26 9L38 9M32 9L32 55M26 55L38 55" fill="none" stroke="#236ead" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+</svg>

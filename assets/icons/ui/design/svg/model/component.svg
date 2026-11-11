@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>Component</title>
+  <path d="M32 16L45.86 24L45.86 40L32 48L18.14 40L18.14 24Z" fill="none" stroke="currentColor" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M18.14 24L32 32L45.86 24M32 32L32 48" fill="none" stroke="currentColor" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M8 17L8 8L17 8M56 17L56 8L47 8M8 47L8 56L17 56M56 47L56 56L47 56" fill="none" stroke="#236ead" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+</svg>

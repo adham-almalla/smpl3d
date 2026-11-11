@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>Draft analysis</title>
+  <path d="M10 10L10 16M10 24L10 30M10 38L10 44M54 10L54 16M54 24L54 30M54 38L54 44" fill="none" stroke="#236ead" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M10 54L21 12L43 12L54 54Z" fill="none" stroke="currentColor" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+</svg>

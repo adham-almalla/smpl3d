@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>Blend surface</title>
+  <path d="M26.8 24L34.6 28.5L15.55 39.5L7.75 35Z" fill="none" stroke="currentColor" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M48.45 24.5L56.25 29L37.2 40L29.4 35.5Z" fill="none" stroke="currentColor" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M34.6 28.5C41.53 32.5 41.53 20.5 48.45 24.5M15.55 39.5C22.47 43.5 22.47 31.5 29.4 35.5" fill="none" stroke="#236ead" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+</svg>

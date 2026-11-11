@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>Press pull</title>
+  <path d="M37.2 18L28.54 13L9.48 24L9.48 46L18.14 51" fill="none" stroke="currentColor" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M9.48 24L18.14 29" fill="none" stroke="currentColor" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M18.14 29L37.2 18L37.2 40L18.14 51Z" fill="#b9ddf8" stroke="#236ead" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M33.73 38L54.52 50M47.67 51.46L54.52 50L52.35 43.34M40.58 36.54L33.73 38L35.9 44.66" fill="none" stroke="#236ead" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>Motion trace</title>
+  <path d="M10 54L30 32" fill="none" stroke="currentColor" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M30 32A14.14 14.14 0 1 1 40 36.14" fill="none" stroke="#236ead" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  <circle cx="10" cy="54" r="4" fill="currentColor"/>
+  <circle cx="30" cy="32" r="6.5" fill="#ffffff"/><circle cx="30" cy="32" r="4" fill="currentColor"/>
+</svg>

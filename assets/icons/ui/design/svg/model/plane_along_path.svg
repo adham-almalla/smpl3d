@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>Plane along path</title>
+  <path d="M8 48C26 48 24 22 56 18" fill="none" stroke="currentColor" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M19.75 15.5L33.75 23.5L33.75 53.5L19.75 45.5Z" fill="#ffffff" stroke="#ffffff" stroke-width="9" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M19.75 15.5L33.75 23.5L33.75 53.5L19.75 45.5Z" fill="none" stroke="#236ead" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+</svg>

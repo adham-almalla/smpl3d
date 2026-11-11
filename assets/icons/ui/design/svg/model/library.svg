@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>Library</title>
+  <path d="M9 10L15 10A2 2 0 0 1 17 12L17 52A2 2 0 0 1 15 54L9 54A2 2 0 0 1 7 52L7 12A2 2 0 0 1 9 10Z" fill="none" stroke="currentColor" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M24 10L30 10A2 2 0 0 1 32 12L32 52A2 2 0 0 1 30 54L24 54A2 2 0 0 1 22 52L22 12A2 2 0 0 1 24 10Z" fill="none" stroke="currentColor" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M37 17L46.7 14.4L56.5 51.1L46.9 53.7Z" fill="none" stroke="currentColor" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+</svg>

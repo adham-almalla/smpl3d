@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>Joint</title>
+  <path d="M45 7L55.39 13L55.39 25L45 31L34.61 25L34.61 13Z" fill="none" stroke="currentColor" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M34.61 13L45 19L55.39 13M45 19L45 31" fill="none" stroke="currentColor" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M19 33L29.39 39L29.39 51L19 57L8.61 51L8.61 39Z" fill="none" stroke="currentColor" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M8.61 39L19 45L29.39 39M19 45L19 57" fill="none" stroke="currentColor" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  <circle cx="32" cy="32" r="4.5" fill="#236ead"/>
+</svg>

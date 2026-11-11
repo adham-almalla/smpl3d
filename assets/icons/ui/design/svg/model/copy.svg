@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>Copy</title>
+  <path d="M28 22L48 22A6 6 0 0 1 54 28L54 48A6 6 0 0 1 48 54L28 54A6 6 0 0 1 22 48L22 28A6 6 0 0 1 28 22Z" fill="none" stroke="currentColor" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M14 42Q10 42 10 38L10 14Q10 10 14 10L38 10Q42 10 42 14" fill="none" stroke="currentColor" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+</svg>

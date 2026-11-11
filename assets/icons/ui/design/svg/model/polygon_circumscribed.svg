@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>Circumscribed polygon</title>
+  <path d="M45.73 29.27A14 14 0 0 0 43.64 24.22M39.78 20.36A14 14 0 0 0 34.73 18.27M29.27 18.27A14 14 0 0 0 24.22 20.36M20.36 24.22A14 14 0 0 0 18.27 29.27M18.27 34.73A14 14 0 0 0 20.36 39.78M24.22 43.64A14 14 0 0 0 29.27 45.73M34.73 45.73A14 14 0 0 0 39.78 43.64M43.64 39.78A14 14 0 0 0 45.73 34.73" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M56 32L44 11.22L20 11.22L8 32L20 52.78L44 52.78Z" fill="none" stroke="currentColor" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  <circle cx="32" cy="32" r="4" fill="#236ead"/>
+  <circle cx="32" cy="11.22" r="6.5" fill="#ffffff"/><circle cx="32" cy="11.22" r="4" fill="#236ead"/>
+</svg>

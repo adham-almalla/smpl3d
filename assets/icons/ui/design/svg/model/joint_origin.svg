@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>Joint origin</title>
+  <path d="M32 24L32 9M37.35 14.95L32 9L26.65 14.95M42.39 42L53.65 48.5M21.61 42L10.35 48.5" fill="none" stroke="currentColor" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  <circle cx="32" cy="36" r="6.5" fill="none" stroke="#236ead" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+</svg>

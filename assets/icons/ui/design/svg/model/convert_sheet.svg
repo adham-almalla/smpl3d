@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>Convert to sheet</title>
+  <path d="M21 9L32.26 15.5L32.26 28.5L21 35L9.74 28.5L9.74 15.5Z" fill="none" stroke="currentColor" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M9.74 15.5L21 22L32.26 15.5M21 22L21 35" fill="none" stroke="currentColor" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M40 35.19L57 45L40 54.81L23 45Z" fill="none" stroke="#236ead" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+</svg>

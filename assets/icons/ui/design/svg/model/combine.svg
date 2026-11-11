@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>Combine</title>
+  <path d="M24.13 26L12 26Q8 26 8 30L8 52Q8 56 12 56L34 56Q38 56 38 52L38 39.87" fill="none" stroke="currentColor" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M24.13 26A16 16 0 1 1 38 39.87" fill="none" stroke="#236ead" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+</svg>

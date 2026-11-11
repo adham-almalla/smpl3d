@@ -1,0 +1,9 @@
+[package]
+name = "smpl3d-testkit"
+description = "Smpl3D test tooling: deterministic mutations of valid files and the no-panic check run over them (a dev-dependency only)"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[lints]
+workspace = true

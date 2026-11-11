@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>Loft</title>
+  <path d="M22.5 15L9 43L32 56.3L55 43L41.5 15" fill="none" stroke="currentColor" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M22.5 15A9.5 5.5 0 1 0 41.5 15A9.5 5.5 0 1 0 22.5 15Z" fill="none" stroke="#236ead" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+</svg>

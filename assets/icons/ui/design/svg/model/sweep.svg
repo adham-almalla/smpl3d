@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>Sweep</title>
+  <path d="M22 46C40 46 28 17 53 17M46.68 22.69L53 17L46.68 11.31" fill="none" stroke="currentColor" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M10 46A5 9 0 1 0 20 46A5 9 0 1 0 10 46Z" fill="none" stroke="#236ead" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+</svg>

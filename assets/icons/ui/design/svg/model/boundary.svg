@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>Boundary surface</title>
+  <path d="M8 38Q21 30 27 13Q40 26 56 25Q51 43 36 53Q24 40 8 38Z" fill="none" stroke="#236ead" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M0.5 38A7.5 7.5 0 1 0 15.5 38A7.5 7.5 0 1 0 0.5 38Z" fill="#ffffff"/>
+  <circle cx="8" cy="38" r="5" fill="currentColor"/>
+  <path d="M19.5 13A7.5 7.5 0 1 0 34.5 13A7.5 7.5 0 1 0 19.5 13Z" fill="#ffffff"/>
+  <circle cx="27" cy="13" r="5" fill="currentColor"/>
+  <path d="M48.5 25A7.5 7.5 0 1 0 63.5 25A7.5 7.5 0 1 0 48.5 25Z" fill="#ffffff"/>
+  <circle cx="56" cy="25" r="5" fill="currentColor"/>
+  <path d="M28.5 53A7.5 7.5 0 1 0 43.5 53A7.5 7.5 0 1 0 28.5 53Z" fill="#ffffff"/>
+  <circle cx="36" cy="53" r="5" fill="currentColor"/>
+</svg>

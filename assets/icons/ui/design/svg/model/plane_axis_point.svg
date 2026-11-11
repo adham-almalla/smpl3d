@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>Plane through axis and point</title>
+  <path d="M33 22.45L53 34L33 45.55L13 34Z" fill="none" stroke="#236ead" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M7 37.46L39 18.99" fill="none" stroke="currentColor" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M35.5 39.77A7.5 7.5 0 1 0 50.5 39.77A7.5 7.5 0 1 0 35.5 39.77Z" fill="#ffffff"/>
+  <circle cx="43" cy="39.77" r="5" fill="currentColor"/>
+</svg>

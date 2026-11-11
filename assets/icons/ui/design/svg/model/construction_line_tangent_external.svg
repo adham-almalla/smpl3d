@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>Tangent through an external point</title>
+  <path d="M8 42A14 14 0 1 0 36 42A14 14 0 1 0 8 42Z" fill="none" stroke="currentColor" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M45.81 15.74L40.35 18.23M29.63 23.12L24.18 25.62M13.46 30.51L8 33" fill="none" stroke="#236ead" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  <circle cx="54" cy="12" r="4" fill="#236ead"/>
+</svg>

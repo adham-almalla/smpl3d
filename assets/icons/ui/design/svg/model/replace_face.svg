@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>Replace face</title>
+  <path d="M11.22 29L11.22 47L32 59L52.78 47L52.78 29M11.22 29L32 41L52.78 29M32 41L32 59" fill="none" stroke="currentColor" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M11.22 29C15.22 7 40.78 3 52.78 29" fill="none" stroke="#236ead" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+</svg>

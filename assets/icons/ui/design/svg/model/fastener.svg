@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>Fastener</title>
+  <path d="M17 9L47 9Q51 9 51 13L51 19Q51 23 47 23L17 23Q13 23 13 19L13 13Q13 9 17 9Z" fill="none" stroke="currentColor" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M24 23L24 51L32 56L40 51L40 23" fill="none" stroke="currentColor" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M24 36L40 31M24 47L40 42" fill="none" stroke="#236ead" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>Circle tangent to three lines</title>
+  <path d="M17.3 37.3A14.7 14.7 0 1 0 46.7 37.3A14.7 14.7 0 1 0 17.3 37.3Z" fill="none" stroke="currentColor" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M32 7L57 52L7 52Z" fill="none" stroke="#236ead" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+</svg>

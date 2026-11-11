@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>Zebra</title>
+  <defs><clipPath id="zebra-clip"><circle cx="32" cy="32" r="23"/></clipPath></defs>
+  <g clip-path="url(#zebra-clip)"><path d="M4 24Q32 12 60 24M4 37Q32 25 60 37M4 50Q32 38 60 50" fill="none" stroke="#236ead" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/></g>
+  <path d="M9 32A23 23 0 1 0 55 32A23 23 0 1 0 9 32Z" fill="none" stroke="currentColor" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+</svg>

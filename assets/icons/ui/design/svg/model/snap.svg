@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>Snap</title>
+  <path d="M14 12L14 34A18 18 0 0 0 50 34L50 12L38 12L38 34A6 6 0 0 1 26 34L26 12Z" fill="none" stroke="currentColor" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M14 24L26 24M38 24L50 24" fill="none" stroke="#236ead" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+</svg>

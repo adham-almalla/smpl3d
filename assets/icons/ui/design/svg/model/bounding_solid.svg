@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>Bounding solid</title>
+  <path d="M32 8L52.78 20L52.78 44L32 56L11.22 44L11.22 20Z" fill="none" stroke="#236ead" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="0.1 7.9"/>
+  <path d="M23 27L23 38A9 5.2 0 0 0 41 38L41 27" fill="none" stroke="currentColor" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M23 27A9 5.2 0 1 0 41 27A9 5.2 0 1 0 23 27Z" fill="none" stroke="currentColor" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+</svg>

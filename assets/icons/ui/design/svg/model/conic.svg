@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>Conic</title>
+  <path d="M9 50L10.47 47.38M14.38 40.4L15.85 37.79M19.77 30.81L21.23 28.19M25.15 21.21L26.62 18.6M30.53 11.62L32 9M32 9L33.47 11.62M37.38 18.6L38.85 21.21M42.77 28.19L44.23 30.81M48.15 37.79L49.62 40.4M53.53 47.38L55 50" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M9 50C22 20 42 20 55 50" fill="none" stroke="currentColor" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  <circle cx="9" cy="50" r="6.5" fill="#ffffff"/><circle cx="9" cy="50" r="4" fill="#236ead"/>
+  <circle cx="32" cy="9" r="6.5" fill="#ffffff"/><circle cx="32" cy="9" r="4" fill="#236ead"/>
+  <circle cx="55" cy="50" r="6.5" fill="#ffffff"/><circle cx="55" cy="50" r="4" fill="#236ead"/>
+</svg>

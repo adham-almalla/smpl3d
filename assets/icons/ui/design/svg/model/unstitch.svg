@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>Unstitch</title>
+  <path d="M24.4 23.11L35.9 16.47L58.9 29.75L47.4 36.39" fill="none" stroke="currentColor" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M16.6 27.61L5.1 34.25L28.1 47.53L39.6 40.89" fill="none" stroke="currentColor" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M24.4 23.11L47.4 36.39M16.6 27.61L39.6 40.89" fill="none" stroke="#236ead" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+</svg>

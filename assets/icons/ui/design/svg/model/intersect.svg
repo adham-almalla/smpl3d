@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>Intersect</title>
+  <path d="M12 26L34 26Q38 26 38 30L38 52Q38 56 34 56L12 56Q8 56 8 52L8 30Q8 26 12 26Z" fill="none" stroke="currentColor" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M24 24A16 16 0 1 0 56 24A16 16 0 1 0 24 24Z" fill="none" stroke="currentColor" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M24.13 26A16 16 0 0 0 38 39.87L38 30Q38 26 34 26Z" fill="#b9ddf8" stroke="#236ead" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+</svg>

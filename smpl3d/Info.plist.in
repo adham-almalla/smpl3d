@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!-- Smpl3D bundle (based on Smpl3D's template). build_and_install.sh fills in @VERSION@. -->
+<plist version="1.0">
+<dict>
+  <key>CFBundleDevelopmentRegion</key>
+  <string>en</string>
+  <key>CFBundleDisplayName</key>
+  <string>Smpl3D</string>
+  <key>CFBundleName</key>
+  <string>Smpl3D</string>
+  <key>CFBundleExecutable</key>
+  <string>Smpl3D</string>
+  <key>CFBundleIdentifier</key>
+  <string>com.adham.smpl3d</string>
+  <key>CFBundleInfoDictionaryVersion</key>
+  <string>6.0</string>
+  <key>CFBundlePackageType</key>
+  <string>APPL</string>
+  <key>CFBundleSignature</key>
+  <string>????</string>
+  <key>CFBundleShortVersionString</key>
+  <string>@SHORT_VERSION@</string>
+  <key>CFBundleVersion</key>
+  <string>@SHORT_VERSION@</string>
+  <key>Smpl3DVersion</key>
+  <string>@VERSION@</string>
+  <key>CFBundleIconFile</key>
+  <string>Smpl3D</string>
+  <key>CFBundleIconName</key>
+  <string>Smpl3D</string>
+  <key>LSApplicationCategoryType</key>
+  <string>public.app-category.graphics-design</string>
+  <!-- Must match MACOSX_DEPLOYMENT_TARGET in package.sh. -->
+  <key>LSMinimumSystemVersion</key>
+  <string>11.0</string>
+  <key>NSHighResolutionCapable</key>
+  <true/>
+  <key>NSSupportsAutomaticGraphicsSwitching</key>
+  <true/>
+  <key>CFBundleDocumentTypes</key>
+  <array>
+    <dict>
+      <key>CFBundleTypeName</key>
+      <string>Smpl3D design</string>
+      <key>CFBundleTypeExtensions</key>
+      <!-- smpl3d: designs saved before .sc; solvecraft: before the rename (compatibility
+           shims, docs/compatibility.md). -->
+      <array><string>sc</string><string>smpl3d</string><string>solvecraft</string></array>
+      <key>LSItemContentTypes</key>
+      <array><string>com.adham.smpl3d.design</string></array>
+      <key>CFBundleTypeRole</key>
+      <string>Editor</string>
+      <key>LSHandlerRank</key>
+      <string>Owner</string>
+    </dict>
+    <dict>
+      <key>CFBundleTypeName</key>
+      <string>STEP, IGES and mesh files</string>
+      <key>CFBundleTypeExtensions</key>
+      <array><string>step</string><string>dxf</string><string>stp</string><string>igs</string><string>iges</string><string>3mf</string><string>stl</string></array>
+      <key>CFBundleTypeRole</key>
+      <string>Viewer</string>
+      <key>LSHandlerRank</key>
+      <string>Alternate</string>
+    </dict>
+  </array>
+  <!-- The design type: .sc, and the older .smpl3d and .solvecraft (docs/compatibility.md). -->
+  <key>UTExportedTypeDeclarations</key>
+  <array>
+    <dict>
+      <key>UTTypeIdentifier</key>
+      <string>com.adham.smpl3d.design</string>
+      <key>UTTypeDescription</key>
+      <string>Smpl3D design</string>
+      <key>UTTypeConformsTo</key>
+      <array><string>public.data</string><string>public.content</string></array>
+      <key>UTTypeTagSpecification</key>
+      <dict>
+        <key>public.filename-extension</key>
+        <array><string>sc</string><string>smpl3d</string><string>solvecraft</string></array>
+        <key>public.mime-type</key>
+        <array><string>application/x-smpl3d</string></array>
+      </dict>
+    </dict>
+  </array>
+</dict>
+</plist>

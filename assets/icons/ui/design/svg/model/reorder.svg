@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>Reorder</title>
+  <path d="M14 10L14 54M8.34 48.34L14 54L19.66 48.34M19.66 15.66L14 10L8.34 15.66" fill="none" stroke="#236ead" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M30 16L56 16M30 32L56 32M30 48L56 48" fill="none" stroke="currentColor" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+</svg>

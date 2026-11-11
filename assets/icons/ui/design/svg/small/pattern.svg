@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>Pattern</title>
+  <path d="M12 30L30 30Q34 30 34 34L34 52Q34 56 30 56L12 56Q8 56 8 52L8 34Q8 30 12 30Z" fill="none" stroke="currentColor" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M19 22L19 19L45 19L45 45L42 45M30 11L30 8L56 8L56 34L53 34" fill="none" stroke="#236ead" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>Measure</title>
+  <path d="M8.67 44.02L44.02 8.67L55.33 19.98L19.98 55.33Z" fill="none" stroke="currentColor" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M17.15 35.54L22.1 40.49M26.34 26.34L31.29 31.29M35.54 17.15L40.49 22.1" fill="none" stroke="#236ead" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+</svg>

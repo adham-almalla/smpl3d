@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>Delete</title>
+  <path d="M10 17L54 17M25 17L25 12Q25 9 28 9L36 9Q39 9 39 12L39 17" fill="none" stroke="currentColor" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M15 17L17.5 50Q18 56 24 56L40 56Q46 56 46.5 50L49 17" fill="none" stroke="currentColor" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M26.5 28L26.5 45M37.5 28L37.5 45" fill="none" stroke="currentColor" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+</svg>

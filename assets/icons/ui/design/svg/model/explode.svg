@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>Explode</title>
+  <path d="M32 7.81L49.3 17.8L32 27.79L14.7 17.8Z" fill="none" stroke="currentColor" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M14.68 37L14.68 46L32 56L49.32 46L49.32 37M14.68 37L32 47L49.32 37M32 47L32 56" fill="none" stroke="currentColor" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M32 42L32 31.5M36.35 36.33L32 31.5L27.65 36.33" fill="none" stroke="#236ead" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+</svg>

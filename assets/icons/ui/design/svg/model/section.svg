@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>Section</title>
+  <path d="M42.39 14L32 8L11.22 20L11.22 44L21.61 50" fill="none" stroke="currentColor" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M11.22 20L21.61 26" fill="none" stroke="currentColor" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M42.39 14L52.78 20L52.78 44L32 56L21.61 50" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="0.1 5.4"/>
+  <path d="M42.39 14L21.61 26L21.61 50L42.39 38Z" fill="#b9ddf8" stroke="#236ead" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+</svg>

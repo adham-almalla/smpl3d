@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>Dependency graph</title>
+  <path d="M32 21L32 31M14 41L14 35Q14 31 18 31L46 31Q50 31 50 35L50 41" fill="none" stroke="currentColor" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M26 14A6 6 0 1 0 38 14A6 6 0 1 0 26 14Z" fill="none" stroke="#236ead" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M8 48A6 6 0 1 0 20 48A6 6 0 1 0 8 48Z" fill="none" stroke="currentColor" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M44 48A6 6 0 1 0 56 48A6 6 0 1 0 44 48Z" fill="none" stroke="currentColor" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+</svg>

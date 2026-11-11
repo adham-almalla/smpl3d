@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>Cylinder</title>
+  <path d="M15 17.8L15 46.2A17 9.8 0 0 0 49 46.2L49 17.8" fill="none" stroke="currentColor" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M15 17.8A17 9.8 0 1 0 49 17.8A17 9.8 0 1 0 15 17.8Z" fill="none" stroke="#236ead" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+</svg>

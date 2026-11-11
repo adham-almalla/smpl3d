@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>Thread</title>
+  <path d="M18 15L18 49A14 7 0 0 0 46 49L46 15A14 7 0 0 0 18 15A14 7 0 0 0 46 15" fill="none" stroke="currentColor" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M18 25C22 35 42 37 46 30M18 36C22 46 42 48 46 41" fill="none" stroke="#236ead" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+</svg>

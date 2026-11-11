@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>Revolve</title>
+  <path d="M24 7L24 57" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="0.1 5.4"/>
+  <path d="M37 31L51 31Q54 31 54 34L54 53Q54 56 51 56L37 56Q34 56 34 53L34 34Q34 31 37 31Z" fill="none" stroke="currentColor" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M8.24 17.61A16 8 0 0 1 39.22 16.53M31.49 14.46L39.22 16.53L40.47 8.63" fill="none" stroke="#236ead" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+</svg>

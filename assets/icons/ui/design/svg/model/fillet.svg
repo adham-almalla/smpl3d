@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>Fillet</title>
+  <path d="M32 8L41.53 13.5C47.74 17.09 52.78 25.82 52.78 33L52.78 44L32 56L11.22 44L11.22 20Z" fill="none" stroke="currentColor" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M11.22 20L20.74 25.5M32 45L32 56" fill="none" stroke="currentColor" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M41.53 13.5L20.74 25.5C26.96 29.09 32 37.82 32 45L52.78 33C52.78 25.82 47.74 17.09 41.53 13.5Z" fill="#b9ddf8" stroke="#236ead" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+</svg>

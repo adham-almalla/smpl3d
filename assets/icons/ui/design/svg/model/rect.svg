@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>Two-point rectangle</title>
+  <path d="M11 17L53 17L53 47L11 47Z" fill="none" stroke="currentColor" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  <circle cx="11" cy="17" r="6.5" fill="#ffffff"/><circle cx="11" cy="17" r="4" fill="#236ead"/>
+  <circle cx="53" cy="47" r="6.5" fill="#ffffff"/><circle cx="53" cy="47" r="4" fill="#236ead"/>
+</svg>

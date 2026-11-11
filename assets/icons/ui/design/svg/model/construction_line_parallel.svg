@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>Parallel construction line</title>
+  <path d="M8 40L42 10" fill="none" stroke="currentColor" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M22 54L26.5 50.03M31.83 45.32L36.33 41.35M41.67 36.65L46.17 32.68M51.5 27.97L56 24" fill="none" stroke="#236ead" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+</svg>

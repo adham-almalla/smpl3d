@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>Rounded rectangle</title>
+  <path d="M55 26L55 38A11 11 0 0 1 44 49L20 49A11 11 0 0 1 9 38L9 26A11 11 0 0 1 20 15L44 15" fill="none" stroke="currentColor" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M44 15A11 11 0 0 1 55 26" fill="none" stroke="#236ead" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+</svg>

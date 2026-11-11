@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>Canvas</title>
+  <path d="M14 12L50 12A6 6 0 0 1 56 18L56 46A6 6 0 0 1 50 52L14 52A6 6 0 0 1 8 46L8 18A6 6 0 0 1 14 12Z" fill="none" stroke="currentColor" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M15 44L25 31L33 40L39 34L49 44" fill="none" stroke="#236ead" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  <circle cx="44" cy="23" r="4" fill="#236ead"/>
+</svg>

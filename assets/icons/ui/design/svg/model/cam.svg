@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>Cam coupling</title>
+  <path d="M30 25C40 25 45 34 45 42A15 15 0 0 1 15 42C15 34 20 25 30 25Z" fill="none" stroke="currentColor" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  <circle cx="30" cy="42" r="4" fill="currentColor"/>
+  <path d="M20 18L40 18M30 18L30 7" fill="none" stroke="#236ead" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+</svg>

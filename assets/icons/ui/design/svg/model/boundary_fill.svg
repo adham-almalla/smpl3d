@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>Boundary fill</title>
+  <path d="M32 8L52.78 20L52.78 44L32 56L11.22 44L11.22 20Z" fill="none" stroke="currentColor" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M32 21L41.53 26.5L41.53 37.5L32 43L22.47 37.5L22.47 26.5Z" fill="#b9ddf8" stroke="#236ead" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M22.47 26.5L32 32L41.53 26.5M32 32L32 43" fill="none" stroke="#236ead" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+</svg>

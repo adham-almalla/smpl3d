@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>Fit-point spline</title>
+  <path d="M10 42C16 16 27 14 32 32C37 50 48 48 54 22" fill="none" stroke="currentColor" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  <circle cx="10" cy="42" r="6.5" fill="#ffffff"/><circle cx="10" cy="42" r="4" fill="#236ead"/>
+  <circle cx="32" cy="32" r="6.5" fill="#ffffff"/><circle cx="32" cy="32" r="4" fill="#236ead"/>
+  <circle cx="54" cy="22" r="6.5" fill="#ffffff"/><circle cx="54" cy="22" r="4" fill="#236ead"/>
+</svg>

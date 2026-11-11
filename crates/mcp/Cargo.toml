@@ -1,0 +1,19 @@
+[package]
+name = "smpl3d-mcp"
+description = "Smpl3D MCP server: JSON-RPC 2.0 over stdio, driving a headless session or the running app"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[lints]
+workspace = true
+
+[dependencies]
+smpl3d-engine = { workspace = true }
+serde_json = { workspace = true }
+
+[dev-dependencies]
+# The renderer `smpl3d-cli mcp` installs, so the tests' screenshots are drawn as the server's.
+smpl3d-gpu = { workspace = true }
+# Synthetic reference pictures for the compare_picture test.
+image = { workspace = true }

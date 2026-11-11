@@ -1,0 +1,36 @@
+[package]
+name = "smpl3d-cli"
+description = "Smpl3D headless CLI: run command scripts, measure, export, render snapshots, replay oracle recipes"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+default-run = "smpl3d-cli"
+
+[lints]
+workspace = true
+
+[[bin]]
+name = "smpl3d-cli"
+path = "src/main.rs"
+
+# Compatibility alias for the CLI's former name: forwards to smpl3d-cli with a deprecation
+# note on stderr. Shipped in every package for at least one release.
+[[bin]]
+name = "solvecraft-cli"
+path = "src/alias.rs"
+
+[features]
+default = ["raytrace-cpu"]
+bundled-render-library = ["smpl3d-engine/bundled-render-library"]
+raytrace-cpu = ["smpl3d-engine/raytrace-cpu"]
+
+[dependencies]
+smpl3d-engine = { workspace = true }
+smpl3d-gpu = { workspace = true }
+smpl3d-mcp = { workspace = true }
+log = { workspace = true }
+serde_json = { workspace = true }
+
+[dev-dependencies]
+# Snapshot tests decode the pictures to compare them with a tolerance.
+image = { workspace = true }

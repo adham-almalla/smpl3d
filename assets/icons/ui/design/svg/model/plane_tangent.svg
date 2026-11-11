@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>Tangent plane</title>
+  <path d="M25.69 40.6L52.54 56.1L52.54 20.1L25.69 4.6Z" fill="none" stroke="#236ead" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M13 19L13 47A12 6.9 0 0 0 37 47L37 19A12 6.9 0 0 0 13 19Z" fill="#ffffff" stroke="#ffffff" stroke-width="9" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M13 19L13 47A12 6.9 0 0 0 37 47L37 19" fill="none" stroke="currentColor" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M13 19A12 6.9 0 1 0 37 19A12 6.9 0 1 0 13 19Z" fill="none" stroke="currentColor" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>Camera</title>
+  <path d="M12 20L20 20L24 13L40 13L44 20L52 20Q56 20 56 24L56 48Q56 52 52 52L12 52Q8 52 8 48L8 24Q8 20 12 20Z" fill="none" stroke="currentColor" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M23 35A9 9 0 1 0 41 35A9 9 0 1 0 23 35Z" fill="none" stroke="currentColor" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+</svg>

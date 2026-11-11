@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>Origin</title>
+  <path d="M32 26L32 10M37.35 15.95L32 10L26.65 15.95M40.66 41L54.52 49M46.69 50.66L54.52 49L52.04 41.39M23.34 41L9.48 49M11.96 41.39L9.48 49L17.31 50.66" fill="none" stroke="currentColor" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  <circle cx="32" cy="36" r="4.5" fill="#236ead"/>
+</svg>

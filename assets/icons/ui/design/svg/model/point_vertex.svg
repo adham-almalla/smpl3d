@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>Point at vertex</title>
+  <path d="M32 13L51.05 24L51.05 46L32 57L12.95 46L12.95 24Z" fill="none" stroke="currentColor" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M12.95 24L32 35L51.05 24M32 35L32 57" fill="none" stroke="currentColor" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M23.5 13A8.5 8.5 0 1 0 40.5 13A8.5 8.5 0 1 0 23.5 13Z" fill="#ffffff"/>
+  <circle cx="32" cy="13" r="5.5" fill="#236ead"/>
+</svg>

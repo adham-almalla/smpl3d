@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>Drive</title>
+  <circle cx="32" cy="32" r="6" fill="none" stroke="currentColor" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M45.5 15.91A21 21 0 1 1 13.81 21.5M15.58 29.81L13.81 21.5L5.73 24.13" fill="none" stroke="#236ead" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+</svg>
