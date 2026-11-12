@@ -75,8 +75,21 @@ pub fn install(
 /// Draw bodies from their plans on the GPU from the frame the evaluation shader has compiled
 /// ([`install`]); until then, and where it never does, they are built on the CPU.
 pub(crate) fn tick_tessellation(app: &mut crate::SolveApp) {
+    // Bodies stay on their CPU-built meshes unless `SMPL3D_GPU_TESS=1` asks for evaluation on
+    // the GPU: that path draws some imported surfaces (a shallow dome between two rings of a
+    // STEP part, for one) with streaks of wrong shading, where the CPU mesh of the same face
+    // is clean.
+    let wanted = std::env::var("SMPL3D_GPU_TESS").is_ok_and(|v| v == "1");
+    tick_tessellation_if(app, wanted);
+}
+
+/// [`tick_tessellation`], with whether evaluation on the GPU is `wanted` once it has compiled.
+fn tick_tessellation_if(app: &mut crate::SolveApp, wanted: bool) {
     if app.viewport.tess_ready.as_ref().is_some_and(|ready| ready.get().is_some()) {
         app.viewport.tess_ready = None;
+        if !wanted {
+            return;
+        }
         if let Some(gpu) = app.viewport.gpu.as_mut() {
             gpu.tess = true;
             #[cfg(not(target_arch = "wasm32"))]
@@ -1117,11 +1130,16 @@ mod tests {
             Some(super::GpuTarget { format: egui_wgpu::wgpu::TextureFormat::Rgba8Unorm, depth: None, samples: 1, tess: false, oit: false });
         let ready = super::TessReady::default();
         app.viewport.tess_ready = Some(ready.clone());
-        super::tick_tessellation(&mut app);
+        super::tick_tessellation_if(&mut app, true);
         assert!(app.viewport.gpu.is_some_and(|g| !g.tess), "still compiling: built on the CPU");
         assert!(ready.set(tess).is_ok());
-        super::tick_tessellation(&mut app);
-        assert!(app.viewport.gpu.is_some_and(|g| g.tess), "compiled: drawn from plans");
+        // Not asked for (the default): bodies stay on their CPU meshes though it has compiled.
+        super::tick_tessellation_if(&mut app, false);
+        assert!(app.viewport.gpu.is_some_and(|g| !g.tess), "compiled but not wanted: still the CPU");
+        assert!(app.viewport.tess_ready.is_none());
+        app.viewport.tess_ready = Some(ready.clone());
+        super::tick_tessellation_if(&mut app, true);
+        assert!(app.viewport.gpu.is_some_and(|g| g.tess), "compiled and wanted: drawn from plans");
         assert!(app.viewport.tess_ready.is_none());
     }
 

@@ -941,6 +941,7 @@ fn start_content(app: &mut SolveApp, ui: &mut egui::Ui, action: &mut Option<File
                 })
                 .collect();
             let responses = FileView::picture_grid(ui, "home:project", &cards, PROJECT_CARD_WIDTH);
+            let mut delete: Option<String> = None;
             for (index, response) in responses.into_iter().enumerate() {
                 let Some(path) = paths.get(index) else { continue };
                 publish(&format!("home:recent:{index}"), &response);
@@ -951,9 +952,20 @@ fn start_content(app: &mut SolveApp, ui: &mut egui::Ui, action: &mut Option<File
                         }
                         ui.close();
                     }
+                    // To the Trash, so a design deleted by mistake can be put back.
+                    if !cfg!(target_arch = "wasm32") && crate::context_menu::button(ui, app.tr_label("Delete"), "delete").clicked() {
+                        delete = Some(path.clone());
+                        ui.close();
+                    }
                 });
                 if response.clicked() {
                     open_recent(app, path);
+                }
+            }
+            if let Some(path) = delete {
+                match crate::smpl3d::trash_project(app, &path) {
+                    Ok(said) => app.set_status(said, false),
+                    Err(why) => app.set_status(why, true),
                 }
             }
         });

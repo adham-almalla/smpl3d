@@ -531,6 +531,49 @@ pub fn list_projects(app: &mut SolveApp) {
     }
 }
 
+/// Where a deleted design goes: the user's Trash, so it can be put back (a folder of their own
+/// for tests).
+fn trash_dir() -> Option<std::path::PathBuf> {
+    #[cfg(test)]
+    {
+        Some(std::env::temp_dir().join(format!("smpl3d-test-trash-{}", std::process::id())))
+    }
+    #[cfg(not(test))]
+    {
+        std::env::var_os("HOME").map(|home| std::path::Path::new(&home).join(".Trash"))
+    }
+}
+
+/// Delete a design from the Projects folder by moving it to the Trash, and drop it from Home.
+/// The design that is open stays: it would save itself back a moment later.
+pub fn trash_project(app: &mut SolveApp, path: &str) -> Result<String, String> {
+    let file = std::path::Path::new(path);
+    let name = file.file_stem().map(|n| n.to_string_lossy().into_owned()).unwrap_or_default();
+    if !in_projects(path) {
+        return Err(format!("{name} is not in the Projects folder"));
+    }
+    if app.session.path.as_deref() == Some(path) {
+        return Err(format!("{name} is open: open another design first, then delete it"));
+    }
+    let trash = trash_dir().ok_or("this computer has no Trash folder to move it to")?;
+    std::fs::create_dir_all(&trash).map_err(|e| format!("the Trash can't be used: {e}"))?;
+    // A free name in the Trash: "Bracket.sc", else "Bracket 2.sc"…
+    let mut target = trash.join(format!("{name}.{DESIGN_EXT}"));
+    let mut n = 2;
+    while target.exists() {
+        target = trash.join(format!("{name} {n}.{DESIGN_EXT}"));
+        n += 1;
+    }
+    std::fs::rename(file, &target).map_err(|e| format!("{name} could not be moved to the Trash: {e}"))?;
+    // The lock file a design leaves beside it while open, if one was left behind.
+    if let (Some(dir), Some(full)) = (file.parent(), file.file_name()) {
+        let _ = std::fs::remove_file(dir.join(format!(".~{}.lock", full.to_string_lossy())));
+    }
+    app.home.recent.retain(|p| p != path);
+    LISTED_AT.with(|l| *l.borrow_mut() = None);
+    Ok(format!("{name} moved to the Trash"))
+}
+
 /// Scale's two-way arrow: drag up to grow, down to shrink (about 2× per 70 points).
 pub fn scale_arrow(ui: &mut egui::Ui, value: &mut String) {
     let t = Tokens::get();
@@ -651,6 +694,33 @@ mod tests {
         h.step(&json!({"click": {"handle": "smpl3d:exit_isolate"}})).unwrap();
         h.frames(2);
         assert!(h.app.session.visibility.hidden_bodies.is_empty());
+    }
+
+    /// Home's Delete moves a design to the Trash and takes it off the page; the open design and
+    /// files outside the Projects folder are refused and stay where they are.
+    #[test]
+    fn deleting_a_project_moves_it_to_the_trash() {
+        let mut h = crate::scenario::Harness::new();
+        let dir = super::projects_dir();
+        std::fs::create_dir_all(&dir).unwrap();
+        let path = dir.join("Delete me.sc");
+        std::fs::write(&path, b"design").unwrap();
+        let key = path.to_string_lossy().into_owned();
+        h.app.home.recent = vec![key.clone()];
+        let outside = std::env::temp_dir().join("smpl3d-not-a-project.sc");
+        std::fs::write(&outside, b"design").unwrap();
+        assert!(super::trash_project(&mut h.app, &outside.to_string_lossy()).is_err());
+        assert!(outside.is_file(), "a file outside Projects is left alone");
+        let _ = std::fs::remove_file(&outside);
+        h.app.session.path = Some(key.clone());
+        assert!(super::trash_project(&mut h.app, &key).is_err(), "the open design is not deleted");
+        assert!(path.is_file());
+        h.app.session.path = None;
+        let said = super::trash_project(&mut h.app, &key).unwrap();
+        assert!(said.contains("Trash"), "{said}");
+        assert!(!path.exists(), "gone from Projects");
+        assert!(super::trash_dir().unwrap().join("Delete me.sc").is_file(), "and in the Trash");
+        assert!(h.app.home.recent.is_empty(), "and off the page");
     }
 
     /// The bottom-left Isolate button shows only the selected body, and a second click brings
@@ -1392,6 +1462,9 @@ fn pill(ui: &mut egui::Ui, rect: Rect, id: &str, icon: &str, label: &str, on: bo
     resp
 }
 
+/// Half the width of the view bar (Orbit, Pan, Zoom…) at the bottom centre, with a little air.
+const VIEW_BAR_HALF: f32 = 200.0;
+
 /// The bottom-left buttons and the Look panel.
 pub fn bottom_left(app: &mut SolveApp, ui: &mut egui::Ui, area: Rect) {
     if !app.preferences.shapr_tools || app.home.open {
@@ -1404,6 +1477,8 @@ pub fn bottom_left(app: &mut SolveApp, ui: &mut egui::Ui, area: Rect) {
         Some(b) if b.bottom() > bottom - 42.0 && b.left() < area.left() + 16.0 + 440.0 && b.right() < area.center().x => b.right() + 12.0,
         _ => area.left() + 16.0,
     };
+    // A row higher when the window is too narrow for them beside the view bar at the bottom centre.
+    let bottom = if left + 440.0 > area.center().x - VIEW_BAR_HALF { bottom - 46.0 } else { bottom };
     let running = |app: &SolveApp, id: &str| app.dialog.as_ref().is_some_and(|d| d.command() == Some(id)) || app.tool.as_ref().is_some_and(|x| x.cmd == id);
     let mut action: Option<&'static str> = None;
     let buttons = Rect::from_min_size(pos2(left, bottom - 34.0), vec2(440.0, 34.0));
